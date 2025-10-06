@@ -1,6 +1,6 @@
-if [ ! -d "thangquang09/uit_dsc_lora_model_final_vllm" ]; then
+if [ ! -d "uit_dsc_lora_model_final_vllm" ]; then
 	echo "Downloading VLLM..."
-    git clone https://huggingface.co/thangquang09/thangquang09/uit_dsc_lora_model_final_vllm
+    git clone https://huggingface.co/thangquang09/uit_dsc_lora_model_final_vllm
 fi
 
 
