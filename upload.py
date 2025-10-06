@@ -1,5 +1,9 @@
 import os
 from huggingface_hub import HfApi, create_repo, upload_folder
+from dotenv import load_dotenv
+
+load_dotenv()
+
 
 def push_to_hf(
     model_dir="lora_model", 
@@ -28,7 +32,7 @@ def push_to_hf(
 
 if __name__ == "__main__":
     push_to_hf(
-        model_dir="uit_dsc_lora_model_final_vllm",   # đổi sang folder bạn muốn push
+        model_dir="final_model_vllm_v2",   # đổi sang folder bạn muốn push
         repo_id="thangquang09/uit_dsc_lora_model_final_vllm",  # repo id của bạn
         commit_msg="Upload model"
     )

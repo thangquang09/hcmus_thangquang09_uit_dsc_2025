@@ -97,7 +97,7 @@ def inference_vllm(args, temp=None, force_out_csv=None):
 
     df["predict_label"] = preds
     df["raw_output"] = raw_outputs
-    df = df[["id", "predict_label", "raw_output"]]
+    df = df[["id", "predict_label"]]
     
     out_csv = force_out_csv if force_out_csv else args.out_csv
     
