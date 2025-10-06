@@ -134,53 +134,13 @@ Prompt được thiết kế với 3 phần chính:
 4. **Parse Output**: Extract label theo thứ tự ưu tiên (extrinsic → intrinsic → no)
 5. **Save Results**: Xuất predictions ra CSV
 
-### 4.3. Đảm Bảo Tính Nhất Quán (Reproducibility)
 
-- **Fixed seed** (3407) cho tất cả random number generators
-- **Deterministic few-shot sampling**: Seed theo ID của từng sample
-- **Consistent chat template**: Dùng chung template cho training và inference
-- **Low temperature** (0.1): Giảm variance trong kết quả
-
-## 5. TỐI ỨU HÓA VÀ XỬ LÝ MEMORY
-
-### 5.1. GPU Memory Management
-
-- **Free GPU Function**: Garbage collection + clear CUDA cache trước mỗi phase
-- **Custom Data Collator**: Chuyển attention_mask về bool dtype cho Unsloth
-- **Gradient Accumulation**: Tăng effective batch size mà không tăng memory
-
-### 5.2. Model Optimization
-
-- **4-bit Quantization**: Giảm 75% kích thước model
-- **LoRA Adapters**: Train 99% ít tham số hơn full fine-tuning
-- **Gradient Checkpointing**: Trade-off giữa memory và tốc độ
-- **Mixed Precision**: Sử dụng bfloat16 thay vì float32
-
-## 6. KẾT QUẢ VÀ HIỆU NĂNG
-
-### 6.1. Thời Gian Xử Lý
-
-- **Training**: 2-3 giờ cho 1 epoch (NVIDIA RTX 4090 24GB)
-- **Inference**: 5-10 samples/phút với vLLM
-
-### 6.2. Tài Nguyên Sử Dụng
-
-- **Training VRAM**: ~22GB
-- **Inference VRAM**: ~18GB
-- **Storage**: 
-  - LoRA adapters: ~500MB
-  - Merged model: ~8GB
-
-### 6.3. Lưu Ý
+## 5. Lưu Ý
 
 ⚠️ **Về tính nhất quán**: Do sử dụng LLM với sampling (temperature > 0), kết quả có thể có chênh lệch giữa các lần chạy. Đây là đặc tính của generative models.
 
-**Giải pháp đã áp dụng:**
-- Giảm temperature xuống 0.1
-- Deterministic few-shot sampling
-- Fixed seeds cho reproducibility
 
-## 7. KẾT LUẬN
+## 6. KẾT LUẬN
 
 Hệ thống kết hợp thành công nhiều kỹ thuật hiện đại trong NLP:
 
