@@ -7,27 +7,6 @@
     "explanation": "Phản hồi cung cấp chính xác năm xây dựng và chức năng ban đầu của Văn Miếu như đã nêu trong ngữ cảnh."
   },
   {
-    "context": "Chiến dịch Điện Biên Phủ năm 1954 là đỉnh cao của cuộc kháng chiến chống thực dân Pháp của quân và dân Việt Nam. Dưới sự chỉ huy của Đại tướng Võ Nguyên Giáp, quân đội Việt Minh đã thực hiện phương châm 'đánh nhanh, thắng nhanh' để tiêu diệt tập đoàn cứ điểm của Pháp. Tuy nhiên, sau khi nhận thấy tình hình thực tế không thuận lợi, Bộ chỉ huy chiến dịch đã quyết định thay đổi phương châm sang 'đánh chắc, tiến chắc'. Chiến dịch kéo dài 56 ngày đêm, kết thúc bằng thắng lợi hoàn toàn của Việt Nam vào ngày 7 tháng 5 năm 1954, buộc Pháp phải ký Hiệp định Genève, chấm dứt chiến tranh tại Đông Dương.",
-    "prompt": "Phương châm tác chiến ban đầu của quân đội Việt Minh trong chiến dịch Điện Biên Phủ là gì?",
-    "generated_response": "Trong chiến dịch Điện Biên Phủ, phương châm tác chiến ban đầu của quân đội Việt Minh là 'đánh chắc, tiến chắc', nhưng sau đó đã đổi sang 'đánh nhanh, thắng nhanh' để phù hợp với tình hình.",
-    "label": "intrinsic",
-    "explanation": "Phản hồi đã đảo ngược thông tin trong ngữ cảnh. Phương châm ban đầu là 'đánh nhanh, thắng nhanh' và sau đó mới đổi thành 'đánh chắc, tiến chắc'."
-  },
-  {
-    "context": "Cà phê trứng là một thức uống đặc sản của Hà Nội, được sáng tạo bởi ông Nguyễn Văn Giảng vào năm 1946 khi ông còn làm nhân viên pha chế cho khách sạn Metropole. Do sự khan hiếm sữa tươi vào thời điểm đó, ông đã nảy ra ý tưởng dùng lòng đỏ trứng gà để thay thế. Thức uống này nhanh chóng trở nên nổi tiếng bởi hương vị béo ngậy, thơm ngon độc đáo. Thành phần chính của một ly cà phê trứng bao gồm cà phê Robusta, lòng đỏ trứng gà tươi, sữa đặc và đường. Tất cả được đánh bông lên tạo thành một lớp kem trứng mịn màng phủ trên ly cà phê nóng.",
-    "prompt": "Ai là người đã sáng tạo ra món cà phê trứng và trong hoàn cảnh nào?",
-    "generated_response": "Cà phê trứng được sáng tạo bởi ông Nguyễn Văn Giảng vào năm 1946. Ông là một đầu bếp nổi tiếng tại Sài Gòn và đã tạo ra món này trong một cuộc thi ẩm thực quốc tế để tôn vinh hạt cà phê Việt Nam.",
-    "label": "extrinsic",
-    "explanation": "Phản hồi trả lời đúng tên người sáng tạo và năm, nhưng thêm thông tin không có thật về việc ông là đầu bếp ở Sài Gòn và tạo ra món ăn trong một cuộc thi, những chi tiết này không có trong ngữ cảnh."
-  },
-  {
-    "context": "Phong trào Đổi Mới, được chính thức khởi xướng tại Đại hội Đảng Cộng sản Việt Nam lần thứ VI vào tháng 12 năm 1986, đã mở ra một kỷ nguyên mới cho nền kinh tế Việt Nam. Chính sách này chuyển đổi nền kinh tế từ mô hình kế hoạch hóa tập trung, bao cấp sang nền kinh tế thị trường định hướng xã hội chủ nghĩa. Các thành phần kinh tế tư nhân được khuyến khích phát triển, luật đầu tư nước ngoài được ban hành để thu hút vốn và công nghệ. Kết quả là, Việt Nam từ một trong những quốc gia nghèo nhất thế giới đã vươn lên trở thành một nước có thu nhập trung bình thấp, với tốc độ tăng trưởng kinh tế ổn định trong nhiều năm.",
-    "prompt": "Chính sách Đổi Mới năm 1986 đã mang lại những thay đổi cơ bản nào cho nền kinh tế Việt Nam?",
-    "generated_response": "Chính sách Đổi Mới năm 1986 đã chuyển đổi nền kinh tế từ kế hoạch hóa tập trung sang kinh tế thị trường định hướng xã hội chủ nghĩa, cho phép kinh tế tư nhân phát triển và thu hút đầu tư nước ngoài.",
-    "label": "no",
-    "explanation": "Câu trả lời tóm tắt chính xác các thay đổi cơ bản của nền kinh tế Việt Nam được mô tả trong đoạn văn."
-  },
-  {
     "context": "Vịnh Hạ Long, nằm ở tỉnh Quảng Ninh, là một trong những kỳ quan thiên nhiên thế giới đã được UNESCO hai lần công nhận. Lần đầu vào năm 1994 về giá trị thẩm mỹ và lần thứ hai vào năm 2000 về giá trị địa chất, địa mạo. Vịnh bao gồm hàng ngàn hòn đảo đá vôi lớn nhỏ với hình thù đa dạng, tạo nên một khung cảnh hùng vĩ và độc đáo. Tên gọi Hạ Long có nghĩa là 'rồng đáp xuống'. Truyền thuyết kể rằng, Ngọc Hoàng đã cử một đàn rồng xuống giúp người Việt chống giặc ngoại xâm. Đàn rồng đã phun ra vô số châu ngọc, biến thành các hòn đảo để chặn đường quân giặc.",
     "prompt": "Vịnh Hạ Long đã được UNESCO công nhận về những giá trị nào?",
     "generated_response": "Vịnh Hạ Long chỉ được UNESCO công nhận một lần duy nhất vào năm 1994 về giá trị văn hóa phi vật thể, cụ thể là truyền thuyết về đàn rồng.",
@@ -54,6 +33,27 @@
     "generated_response": "Theo ngữ cảnh, Đồng bằng sông Cửu Long đang đối mặt với hai thách thức chính từ biến đổi khí hậu là tình trạng lũ lụt thường xuyên và ô nhiễm nguồn nước.",
     "label": "intrinsic",
     "explanation": "Phản hồi đã thay thế các thách thức được nêu trong ngữ cảnh (xâm nhập mặn và sụt lún đất) bằng các thách thức khác (lũ lụt và ô nhiễm nguồn nước), do đó mâu thuẫn với thông tin được cung cấp."
+  },
+  {
+    "context": "Chiến dịch Điện Biên Phủ năm 1954 là đỉnh cao của cuộc kháng chiến chống thực dân Pháp của quân và dân Việt Nam. Dưới sự chỉ huy của Đại tướng Võ Nguyên Giáp, quân đội Việt Minh đã thực hiện phương châm 'đánh nhanh, thắng nhanh' để tiêu diệt tập đoàn cứ điểm của Pháp. Tuy nhiên, sau khi nhận thấy tình hình thực tế không thuận lợi, Bộ chỉ huy chiến dịch đã quyết định thay đổi phương châm sang 'đánh chắc, tiến chắc'. Chiến dịch kéo dài 56 ngày đêm, kết thúc bằng thắng lợi hoàn toàn của Việt Nam vào ngày 7 tháng 5 năm 1954, buộc Pháp phải ký Hiệp định Genève, chấm dứt chiến tranh tại Đông Dương.",
+    "prompt": "Phương châm tác chiến ban đầu của quân đội Việt Minh trong chiến dịch Điện Biên Phủ là gì?",
+    "generated_response": "Trong chiến dịch Điện Biên Phủ, phương châm tác chiến ban đầu của quân đội Việt Minh là 'đánh chắc, tiến chắc', nhưng sau đó đã đổi sang 'đánh nhanh, thắng nhanh' để phù hợp với tình hình.",
+    "label": "intrinsic",
+    "explanation": "Phản hồi đã đảo ngược thông tin trong ngữ cảnh. Phương châm ban đầu là 'đánh nhanh, thắng nhanh' và sau đó mới đổi thành 'đánh chắc, tiến chắc'."
+  },
+  {
+    "context": "Cà phê trứng là một thức uống đặc sản của Hà Nội, được sáng tạo bởi ông Nguyễn Văn Giảng vào năm 1946 khi ông còn làm nhân viên pha chế cho khách sạn Metropole. Do sự khan hiếm sữa tươi vào thời điểm đó, ông đã nảy ra ý tưởng dùng lòng đỏ trứng gà để thay thế. Thức uống này nhanh chóng trở nên nổi tiếng bởi hương vị béo ngậy, thơm ngon độc đáo. Thành phần chính của một ly cà phê trứng bao gồm cà phê Robusta, lòng đỏ trứng gà tươi, sữa đặc và đường. Tất cả được đánh bông lên tạo thành một lớp kem trứng mịn màng phủ trên ly cà phê nóng.",
+    "prompt": "Ai là người đã sáng tạo ra món cà phê trứng và trong hoàn cảnh nào?",
+    "generated_response": "Cà phê trứng được sáng tạo bởi ông Nguyễn Văn Giảng vào năm 1946. Ông là một đầu bếp nổi tiếng tại Sài Gòn và đã tạo ra món này trong một cuộc thi ẩm thực quốc tế để tôn vinh hạt cà phê Việt Nam.",
+    "label": "extrinsic",
+    "explanation": "Phản hồi trả lời đúng tên người sáng tạo và năm, nhưng thêm thông tin không có thật về việc ông là đầu bếp ở Sài Gòn và tạo ra món ăn trong một cuộc thi, những chi tiết này không có trong ngữ cảnh."
+  },
+  {
+    "context": "Phong trào Đổi Mới, được chính thức khởi xướng tại Đại hội Đảng Cộng sản Việt Nam lần thứ VI vào tháng 12 năm 1986, đã mở ra một kỷ nguyên mới cho nền kinh tế Việt Nam. Chính sách này chuyển đổi nền kinh tế từ mô hình kế hoạch hóa tập trung, bao cấp sang nền kinh tế thị trường định hướng xã hội chủ nghĩa. Các thành phần kinh tế tư nhân được khuyến khích phát triển, luật đầu tư nước ngoài được ban hành để thu hút vốn và công nghệ. Kết quả là, Việt Nam từ một trong những quốc gia nghèo nhất thế giới đã vươn lên trở thành một nước có thu nhập trung bình thấp, với tốc độ tăng trưởng kinh tế ổn định trong nhiều năm.",
+    "prompt": "Chính sách Đổi Mới năm 1986 đã mang lại những thay đổi cơ bản nào cho nền kinh tế Việt Nam?",
+    "generated_response": "Chính sách Đổi Mới năm 1986 đã chuyển đổi nền kinh tế từ kế hoạch hóa tập trung sang kinh tế thị trường định hướng xã hội chủ nghĩa, cho phép kinh tế tư nhân phát triển và thu hút đầu tư nước ngoài.",
+    "label": "no",
+    "explanation": "Câu trả lời tóm tắt chính xác các thay đổi cơ bản của nền kinh tế Việt Nam được mô tả trong đoạn văn."
   },
   {
     "context": "Truyện Kiều, tác phẩm của đại thi hào Nguyễn Du, tên gốc là 'Đoạn trường tân thanh'. Tác phẩm được viết bằng chữ Nôm và gồm 3.254 câu thơ lục bát. Nội dung truyện dựa trên cuốn tiểu thuyết 'Kim Vân Kiều truyện' của Thanh Tâm Tài Nhân, Trung Quốc. Tuy nhiên, Nguyễn Du đã có những sáng tạo vượt bậc về nghệ thuật, biến một câu chuyện vay mượn thành một kiệt tác văn học của dân tộc Việt Nam, với giá trị nhân đạo sâu sắc và ngôn ngữ đạt đến đỉnh cao của sự tinh luyện.",
