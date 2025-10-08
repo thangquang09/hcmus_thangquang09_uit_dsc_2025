@@ -49,6 +49,7 @@ def parse_args():
     # Inference Config
     p.add_argument("--max_new_tokens", type=int, default=64)
     p.add_argument("--batch_size", type=int, default=8)
+    p.add_argument("--use_lora", action="store_true", help="Use LoRA adapter for inference (requires base model + LoRA path)")
 
     # Save config
     p.add_argument("--out_csv", type=str, default="submission.csv")
@@ -68,6 +69,14 @@ if __name__ == "__main__":
     elif args.mode in ["inference", "inference_random", "inference_1_temp"]:
         if not args.test_csv:
             raise ValueError(f"--test_csv is required for mode '{args.mode}'")
+    
+    # Validate LoRA arguments
+    if args.use_lora:
+        if not args.inference_model_path:
+            raise ValueError("--inference_model_path is required when using --use_lora")
+        if not args.model_name:
+            raise ValueError("--model_name (base model) is required when using --use_lora")
+        print(f"==> LoRA mode enabled: base_model={args.model_name}, lora_path={args.inference_model_path}")
     
     if args.mode == "train":
         print("==> Mode: Fresh Training")
